@@ -5,7 +5,7 @@ class Core {
     }
     
     public function refresh() {
-        echo '<meta http-equiv="refresh" content="0"/>';
+        header('Refresh: 0');
+        exit;
     }
 }
-// لا تضع ?> هنا - احذفها نهائياً
