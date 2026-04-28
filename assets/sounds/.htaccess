@@ -1,0 +1,4 @@
+# تفعيل نوع MP3 على استضافات Apache (تجنّب 403 أو تنزيل بدل تشغيل)
+<IfModule mod_mime.c>
+    AddType audio/mpeg .mp3
+</IfModule>

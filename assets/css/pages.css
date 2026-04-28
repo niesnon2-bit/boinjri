@@ -1,0 +1,37 @@
+/* دفعات، OTP، بيانات العميل، نجاح، تسجيل دخول */
+body { font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif; margin: 0; background: #f0f2f5; }
+.card { max-width: 420px; margin: 40px auto; background: #fff; border-radius: 16px; padding: 28px; box-shadow: 0 8px 32px rgba(0,0,0,.08); }
+.card h2 { text-align: center; margin-top: 0; }
+.logos { display: flex; justify-content: center; gap: 12px; margin: 16px 0; }
+.logos img { height: 28px; object-fit: contain; }
+.input-box { margin-bottom: 16px; }
+.input-box .label { font-size: 12px; color: #666; margin-bottom: 6px; }
+.input { width: 100%; box-sizing: border-box; padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 15px; }
+.input-box .row { display: flex; gap: 12px; }
+.input-box .row .input-box { flex: 1; }
+#payBtn, #confirmBtn, .card button[type=submit] { width: 100%; padding: 14px; background: #0f172a; color: #fff; border: none; border-radius: 10px; font-size: 16px; margin-top: 8px; cursor: pointer; }
+#payBtn:disabled, #confirmBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.otp-boxes { display: flex; gap: 8px; justify-content: center; direction: ltr; }
+.otp { width: 40px; height: 48px; text-align: center; font-size: 20px; border: 1px solid #ccc; border-radius: 8px; }
+.pin-input { width: 100%; text-align: center; letter-spacing: 8px; font-size: 20px; }
+.success-wrapper { max-width: 400px; margin: 40px auto; text-align: center; font-family: Tahoma, sans-serif; }
+.success-wrapper .header { background: #0f172a; color: #fff; padding: 20px; font-weight: bold; }
+.success-wrapper .code-box { font-size: 28px; font-weight: bold; margin: 24px; direction: ltr; }
+.success-wrapper .timer { color: #666; margin: 8px; }
+.success-wrapper .progress { height: 6px; background: #eee; border-radius: 3px; overflow: hidden; margin: 16px; }
+.success-wrapper .progress-bar { height: 100%; background: #16a34a; width: 100%; transition: width 1s linear; }
+.success-wrapper .actions { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
+.success-wrapper .actions button, .success-wrapper .primary-btn { padding: 12px 20px; border-radius: 8px; text-decoration: none; display: inline-block; }
+.success-wrapper .actions button { background: #e5e5e5; border: none; cursor: pointer; }
+.success-wrapper .primary-btn { background: #0f172a; color: #fff; }
+.customer .english-desc { font-size: 11px; color: #888; text-align: center; }
+.customer .desc { color: #555; font-size: 14px; margin: 16px 0; }
+.customer .provider-message { display: none; font-size: 13px; color: #0c4a6e; background: #e0f2fe; padding: 10px; border-radius: 8px; margin: 8px 0; }
+.customer .badge { text-align: center; font-size: 11px; color: #888; margin-top: 16px; }
+.checkout .text-bujairi { color: #a68b5a; }
+.checkout .bg-bujairi { background-color: #a68b5a; }
+.checkout .steps-container { list-style: none; display: flex; gap: 8px; padding: 0; margin: 0; font-size: 12px; flex-wrap: wrap; }
+.checkout .steps-container li { padding: 4px 10px; border-radius: 8px; background: #e5e5e5; }
+.checkout .steps-container li.active { background: #0f172a; color: #fff; }
+.checkout .payment-card { cursor: pointer; }
+.checkout .payment-card.selected { border-color: #a68b5a !important; background: #fffbf5; }
