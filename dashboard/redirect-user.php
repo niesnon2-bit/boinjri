@@ -5,7 +5,7 @@ declare(strict_types=1);
  * ليعمل الـ poll في booking/redirect-status.js حتى بدون Pusher.
  * Pusher: bujairi_pusher_notify_customer_redirect، مع fallback إن لم تُضبط مفاتيح Pusher في config.
  */
-session_start();
+// ✅ تم إزالة session_start() لأن init.php يقوم بها
 require_once __DIR__ . '/init.php';
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
