@@ -595,4 +595,14 @@ echo '<div class="status-box info">';
 echo '<h3>🔗 الخطوات التالية</h3>';
 echo '<ul>';
 echo '<li>✅ <strong>احذف هذا الملف:</strong> <code>setup-database.php</code></li>';
-echo '<li>🔐 <strong>سجل دخول للو
+echo '<li>🔐 <strong>سجل دخول للوحة التحكم:</strong> <a href="dashboard/" target="_blank">dashboard/</a></li>';
+echo '<li>🔄 <strong>غيّر كلمة المرور:</strong> من لوحة التحكم</li>';
+echo '<li>🌐 <strong>افتح الموقع:</strong> <a href="index.php" target="_blank">الصفحة الرئيسية</a></li>';
+echo '</ul>';
+echo '</div>';
+
+?>
+        </div>
+    </div>
+</body>
+</html>
